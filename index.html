@@ -5,82 +5,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mundo Magie</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    font-family: 'Outfit', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url('fondoss.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-  .container {
-    max-width: 400px;
-    width: 90%;
-    background: #fff;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.1);
-    text-align: center;
-  }
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: url('fondoss.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+    }
 
-  img {
-    width: 180px;
-    margin-bottom: -10px; /* ajustado */
-  }
+    .container {
+      max-width: 400px;
+      width: 90%;
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.1);
+      text-align: center;
+    }
 
-  h4 {
-    margin-top: -16px;  /* agregado */
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #a74b99;
-  }
+    img {
+      width: 160px;
+      max-width: 100%;
+      margin-bottom: -10px;
+    }
 
-  h1 {
-    margin: 10px 0;
-    font-size: 24px;
-    color: #a74b99;
-  }
+    h4 {
+      margin-top: -16px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #a74b99;
+    }
 
-  .link {
-    display: block;
-    margin: 12px 0;
-    padding: 12px 20px;
-    background: #a74b99;
-    color: white;
-    text-decoration: none;
-    border-radius: 12px;
-    font-weight: 600;
-    transition: background 0.3s ease;
-  }
+    h1 {
+      margin: 10px 0;
+      font-size: 22px;
+      color: #a74b99;
+      word-break: break-word;
+    }
 
-  .link:hover {
-    background: #c72d8e;
-  }
+    .link {
+      display: block;
+      margin: 12px 0;
+      padding: 12px 20px;
+      background: #a74b99;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
 
-  footer {
-    margin-top: 40px;
-    font-size: 12px;
-    color: #272626;
-  }
-</style>
+    .link:hover {
+      background: #c72d8e;
+    }
 
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #272626;
+      text-align: center;
+      padding: 10px 20px;
+    }
+
+    /* 📱 Media Query para pantallas pequeñas */
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px 15px;
+      }
+
+      h4 {
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+
+      .link {
+        padding: 10px 16px;
+        font-size: 14px;
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <img src="logo.png" alt="Logo Mundo Magie" />
     <h4>•✨ Mundo Magie ✨ •<br>
-🌸Tienda de Papelería & Cotillón Personalizado🌸 <br>
-Bienvenidos a mi tienda online</h4>
+    🌸Tienda de Papelería & Cotillón Personalizado🌸 <br>
+    Bienvenidos a mi tienda online</h4>
     <h1>@mundomagie.cl</h1>
 
     <a class="link" href="http://www.mundomagie.cl" target="_blank">🛍️ Tienda Online</a>
@@ -90,8 +117,8 @@ Bienvenidos a mi tienda online</h4>
   </div>
 
   <footer>
-   <center>Diseñado por Mundo Magie 2025 <br>
-   Diseño & Desarrollo Web Personalizado &hearts;
-  </footer></center>
+    Diseñado por Mundo Magie 2025 <br>
+    Diseño & Desarrollo Web Personalizado ♥
+  </footer>
 </body>
 </html>
